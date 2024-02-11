@@ -1,13 +1,15 @@
 ---
 
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 
-const pageTitle = "About Me perro";
+const pageTitle = "About Me pelao";
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "pelao",
+  country: "Chile",
+  occupation: "toa la vola",
+  hobbies: ["comer", "leer", "ir al baño"],
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
@@ -46,21 +48,15 @@ const textCase = "all-caps";
 	<body>
 		<h1><body>
             <h1>
-              <a href="/">HOME</a>
-              <a href="/about/">ABOUT</a>
-              <a href="/blog/">BLOG</a>
+              <Navigation />
             </h1>
 
             <h1>{pageTitle}</h1>
-            <h2>... and my new Astro site!</h2>
-            <h1>My Astro Site</h1>
-            <h1>About Me</h1>
-            <h2>... and my new Astro site!</h2>
+           
+            <h2>... y de el sitio!</h2>
           
-            <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+            <p>Estoy trabajando pa aprender esta volá. </p>
           
-            <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-
             <p>Here are a few facts about me:</p>
             <ul>
             <li>My name is {identity.firstName}.</li>
@@ -73,10 +69,12 @@ const textCase = "all-caps";
 <p>My skills are:</p>
 <ul>
   {skills.map((skill) => <li class="skill">{skill}</li>)}
-  {happy && <p>I am happy to be learning Astro!</p>}
+  <!-- {happy && <p>I am happy to be learning Astro!</p>}
   {finished && <p>I finished this tutorial!</p>}
-  {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+  {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>} -->
 </ul>
           </body></h1>
+
+          <Footer />
 			</body>
 </html>

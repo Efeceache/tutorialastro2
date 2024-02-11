@@ -1,20 +1,21 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+title: 'primer post'
+pubDate: 01-01-0000
+description: 'el primer post, na mas.'
+author: 'pelao'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# My First Blog Post
+<!--# My First Blog Post-->
 
-Published on: 2022-07-01
+publicado el dia de ayer.
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+ _primer post de la volá._ 
 
-## What I've accomplished
+
+<!-- ## What I've accomplished
 
 1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
@@ -24,4 +25,4 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 ## What's next
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come. -->
