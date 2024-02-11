@@ -1,4 +1,4 @@
-# Astro Starter Kit: Minimal
+# Proyecto : Clase de Astro
 
 ```sh
 npm create astro@latest -- --template minimal
@@ -8,11 +8,19 @@ npm create astro@latest -- --template minimal
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **Viajando en conocimiento** hay que divertirse!
 
-## 🚀 Project Structure
+## 🚀 Estructura del proyecto
 
 Inside of your Astro project, you'll see the following folders and files:
+
+Actualizacion: 
+Se agregaron paginas About, Blog.
+Tambien posts en la pagina blog.
+Se agrego carpeta components.
+En ella contenido de Fooster, Navigation y Social.
+Styles global.css creado.
+
 
 ```text
 /
