@@ -1,7 +1,7 @@
 ---
 
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import Navigation from '../components/navigation.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "About Me pelao";
@@ -26,30 +26,29 @@ const textCase = "all-caps";
 
 
 <html lang="en">
+  <style define:vars={{skillColor, fontWeight, textCase}}>
+    h1 {
+      color: purple;
+      font-size: 2.5rem;
+    }
+    .skill {
+  color: var(--skillColor);
+  font-weight: var(--fontWeight);
+  text-transform: var(--textCase);
+}
+  </style>
+
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-
-    <style define:vars={{skillColor, fontWeight, textCase}}>
-      h1 {
-        color: purple;
-        font-size: 2.5rem;
-      }
-      .skill {
-    color: var(--skillColor);
-    font-weight: var(--fontWeight);
-    text-transform: var(--textCase);
-  }
-    </style>
 	</head>
 	<body>
-		<h1><body>
-            <h1>
+		<body>
+            
               <Navigation />
-            </h1>
+            
 
             <h1>{pageTitle}</h1>
            
@@ -73,8 +72,7 @@ const textCase = "all-caps";
   {finished && <p>I finished this tutorial!</p>}
   {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>} -->
 </ul>
-          </body></h1>
-
+    </body>
           <Footer />
-			</body>
+	</body>
 </html>

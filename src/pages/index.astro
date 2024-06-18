@@ -1,11 +1,10 @@
 ---
 
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import Navigation from '../components/navigation.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "Buena pelao";
-
 ---
 
 <html lang="en">
@@ -18,7 +17,7 @@ const pageTitle = "Buena pelao";
 			<meta name="generator" content={Astro.generator} />
 			<title>Astro</title>
 		</head>
-			<h1><Navigation /></h1>	
+			<Navigation />
 			<h1>{pageTitle}</h1>
 			<h2>... estoy aprendiendo a usar esta volá!</h2>
 		<Footer />
