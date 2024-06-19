@@ -3,13 +3,29 @@
 ```sh
 npm create astro@latest -- --template minimal
 ```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+<!-- [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json) -->
+
 
 > 🧑‍🚀 **Viajando en conocimiento** hay que divertirse!
 
+Instalación
+
+Clona este repositorio en tu máquina local:
+```sh
+npm sudo git clone https://github.com/Efeceache/tutorialastro2.git
+```
+
+Ingresa a travez del comando cd a la carpeta clonada
+```sh
+cd tutorialastro2
+```
+
+ejecuta lo siguiente para correr proyecto en localhost
+```sh
+cd sudo npm run dev
+```
 ## 🚀 Estructura del proyecto
 
 Inside of your Astro project, you'll see the following folders and files:
@@ -52,4 +68,6 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Soon my friend...
+
+
