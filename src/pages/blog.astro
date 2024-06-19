@@ -39,7 +39,9 @@ const pageTitle = "my astro learning blog";
 
 		<Footer />
 		<script>
-		  import "../scripts/menu.js";
+		document.querySelector('.Hamburger').addEventListener('click', () => {
+    	document.querySelector('.nav-links').classList.toggle('expanded');
+  });
 		</script>
 	  
 	</body>

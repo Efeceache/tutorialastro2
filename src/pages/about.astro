@@ -77,7 +77,9 @@ const textCase = "all-caps";
     </body>
           <Footer />
           <script>
-            import "../scripts/menu.js";
+            document.querySelector('.Hamburger').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('expanded');
+  });
           </script>
         </body>
 	</body>
