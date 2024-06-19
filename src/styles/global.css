@@ -21,12 +21,12 @@ html {
   }
 
   /* nav styles */
-  .hamburger {
+  .Hamburger {
     padding-right: 20px;
     cursor: pointer;
   }
   
-  .hamburger .line {
+  .Hamburger .line {
     display: block;
     width: 40px;
     height: 5px;
@@ -76,7 +76,7 @@ html {
     padding: 15px 20px;
   }
 
-  .hamburger {
+  .Hamburger {
     display: none;
   }
 
