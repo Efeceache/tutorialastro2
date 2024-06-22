@@ -18,7 +18,11 @@ const pageTitle = "Buena pelao";
 			<h2>... estoy aprendiendo a usar esta volá!</h2>
 		<Footer />
 		<script>
-		 import "../scripts/menu.jsx";
+			document.querySelector('.hamburger').addEventListener('click', () => {
+			document.querySelector('.nav-links').classList.toggle('expanded');
+		  });
+// import "../scripts/menu.js"; importa de menu.js npm run build getRollupError
+
 		  </script>
 	</body>
 </html>
